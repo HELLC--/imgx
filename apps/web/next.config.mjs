@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 const nextConfig = {
   reactStrictMode: true,
-  transpilePackages: ['@imgx/core'],
+  transpilePackages: ['@imgx-kit/core'],
   serverExternalPackages: ['sharp'],
 };
 

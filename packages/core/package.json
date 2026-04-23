@@ -1,6 +1,7 @@
 {
-  "name": "@imgx/core",
+  "name": "@imgx-kit/core",
   "version": "0.1.0",
+  "description": "URL-driven image processing for Node.js. Compatible with Aliyun OSS x-oss-process syntax, powered by sharp.",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -26,7 +27,38 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "test": "vitest run --coverage",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "prepublishOnly": "pnpm run build"
+  },
+  "keywords": [
+    "image",
+    "image-processing",
+    "sharp",
+    "oss",
+    "x-oss-process",
+    "resize",
+    "crop",
+    "watermark",
+    "convert",
+    "nodejs"
+  ],
+  "author": "imgx contributors",
+  "license": "MIT",
+  "homepage": "https://imgx-gbom.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HELLC--/imgx.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/HELLC--/imgx/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "peerDependencies": {
     "sharp": "^0.33.0"

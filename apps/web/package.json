@@ -10,7 +10,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@imgx/core": "workspace:*",
+    "@imgx-kit/core": "workspace:*",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
     "highlight.js": "^11.10.0",

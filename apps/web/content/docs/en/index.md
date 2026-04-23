@@ -6,15 +6,15 @@ order: 0
 
 # Getting Started
 
-> `@imgx/core` is a Node.js image processing library compatible with Aliyun OSS `x-oss-process` URL syntax, powered by sharp.
+> `@imgx-kit/core` is a Node.js image processing library compatible with Aliyun OSS `x-oss-process` URL syntax, powered by sharp.
 
 ## Install
 
 ```bash
-npm install @imgx/core sharp
+npm install @imgx-kit/core sharp
 # or
-pnpm add @imgx/core sharp
-yarn add @imgx/core sharp
+pnpm add @imgx-kit/core sharp
+yarn add @imgx-kit/core sharp
 ```
 
 > `sharp` is a peer dependency and must be installed separately.
@@ -24,7 +24,7 @@ yarn add @imgx/core sharp
 ### processImage (URL string)
 
 ```ts
-import { processImage } from '@imgx/core';
+import { processImage } from '@imgx-kit/core';
 
 const buf = await processImage(
   './photo.jpg',
@@ -35,7 +35,7 @@ const buf = await processImage(
 ### imgx chain API
 
 ```ts
-import { imgx } from '@imgx/core';
+import { imgx } from '@imgx-kit/core';
 
 const buf = await imgx('./photo.jpg')
   .resize({ w: 300 })

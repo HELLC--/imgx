@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import sharp from 'sharp';
-import { parseURL, executePipeline, ValidationError } from '@imgx/core';
+import { parseURL, executePipeline, ValidationError } from '@imgx-kit/core';
 import { getSample } from '@/content/samples';
 import { checkRateLimit } from '@/lib/rate-limit';
 

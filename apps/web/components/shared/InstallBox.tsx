@@ -7,9 +7,9 @@ const MANAGERS = ["npm", "pnpm", "yarn"] as const;
 type Manager = (typeof MANAGERS)[number];
 
 const CMD: Record<Manager, string> = {
-  npm: "npm install @imgx/core",
-  pnpm: "pnpm add @imgx/core",
-  yarn: "yarn add @imgx/core",
+  npm: "npm install @imgx-kit/core",
+  pnpm: "pnpm add @imgx-kit/core",
+  yarn: "yarn add @imgx-kit/core",
 };
 
 export function InstallBox() {

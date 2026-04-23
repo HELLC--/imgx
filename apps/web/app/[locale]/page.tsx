@@ -19,14 +19,14 @@ const SAMPLE_PARAMS = {
   c3: "image/resize,w_400/watermark,text_SGVsbG8sd_t_50,g_se",
 } as const;
 
-const URL_EXAMPLE = `import { processImage } from '@imgx/core';
+const URL_EXAMPLE = `import { processImage } from '@imgx-kit/core';
 
 const buf = await processImage(
   './photo.jpg',
   'image/resize,w_300/format,webp',
 );`;
 
-const BUILDER_EXAMPLE = `import { imgx } from '@imgx/core';
+const BUILDER_EXAMPLE = `import { imgx } from '@imgx-kit/core';
 
 const buf = await imgx('./photo.jpg')
   .resize({ w: 300 })

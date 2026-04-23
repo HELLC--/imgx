@@ -36,7 +36,7 @@ order: 1
 ### processImage (URL string)
 
 ```ts
-import { processImage } from '@imgx/core';
+import { processImage } from '@imgx-kit/core';
 
 const buf = await processImage(
   './phone-photo.jpg',
@@ -47,7 +47,7 @@ const buf = await processImage(
 ### imgx chain API
 
 ```ts
-import { imgx } from '@imgx/core';
+import { imgx } from '@imgx-kit/core';
 
 const buf = await imgx('./phone-photo.jpg')
   .autoOrient({ value: 1 })

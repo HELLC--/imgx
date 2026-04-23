@@ -29,11 +29,11 @@ Resize, crop, watermark, convert — all expressed as a readable path, powered b
 ## 📦 Install
 
 ```bash
-npm install @imgx/core sharp
+npm install @imgx-kit/core sharp
 # or
-pnpm add @imgx/core sharp
+pnpm add @imgx-kit/core sharp
 # or
-yarn add @imgx/core sharp
+yarn add @imgx-kit/core sharp
 ```
 
 > `sharp` is a peer dependency and must be installed separately.
@@ -43,7 +43,7 @@ yarn add @imgx/core sharp
 ### 1. URL style — drop-in `x-oss-process` compatible
 
 ```ts
-import { processImage } from '@imgx/core';
+import { processImage } from '@imgx-kit/core';
 
 const buf = await processImage(
   './photo.jpg',
@@ -54,7 +54,7 @@ const buf = await processImage(
 ### 2. Builder style — typed, chainable, discoverable
 
 ```ts
-import { imgx } from '@imgx/core';
+import { imgx } from '@imgx-kit/core';
 
 const buf = await imgx('./photo.jpg')
   .resize({ w: 300 })
@@ -80,7 +80,7 @@ This is a [pnpm](https://pnpm.io) + [Turborepo](https://turborepo.com) monorepo.
 
 | Path | Description |
 | --- | --- |
-| [`packages/core/`](./packages/core) | [`@imgx/core`](./packages/core) — the image processing library |
+| [`packages/core/`](./packages/core) | [`@imgx-kit/core`](./packages/core) — the image processing library |
 | [`apps/web/`](./apps/web) | Marketing site, documentation and online Playground (Next.js 16) |
 | `docs/` | Internal planning notes |
 
@@ -124,14 +124,14 @@ Issues and pull requests are very welcome. If you plan to work on a sizeable cha
 
 ## 中文简介
 
-`imgx` 是一个 Node.js 图像处理工具集，**核心库 `@imgx/core` 完全兼容阿里云 OSS 的 `x-oss-process` URL 语法**，底层由 [`sharp`](https://github.com/lovell/sharp) 驱动。它同时提供两套等价 API：
+`imgx` 是一个 Node.js 图像处理工具集，**核心库 `@imgx-kit/core` 完全兼容阿里云 OSS 的 `x-oss-process` URL 语法**，底层由 [`sharp`](https://github.com/lovell/sharp) 驱动。它同时提供两套等价 API：
 
 - **URL 风格**：把熟悉的 `image/resize,w_300/format,webp` 直接喂进去；
 - **链式 Builder**：完整 TypeScript 类型，IDE 自动补全，写起来更顺手。
 
 仓库为 pnpm + Turborepo monorepo：
 
-- [`packages/core/`](./packages/core) — `@imgx/core` 库本体
+- [`packages/core/`](./packages/core) — `@imgx-kit/core` 库本体
 - [`apps/web/`](./apps/web) — 官网、文档与在线 Playground（Next.js）
 
 🔗 在线体验：<https://imgx-gbom.vercel.app> ｜ Playground：<https://imgx-gbom.vercel.app/zh/playground>

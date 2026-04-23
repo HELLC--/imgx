@@ -76,7 +76,7 @@ order: 2
 ### processImage(URL 字符串)
 
 ```ts
-import { processImage } from '@imgx/core';
+import { processImage } from '@imgx-kit/core';
 
 const buf = await processImage(
   './photo.jpg',
@@ -87,7 +87,7 @@ const buf = await processImage(
 ### imgx 链式 API
 
 ```ts
-import { imgx } from '@imgx/core';
+import { imgx } from '@imgx-kit/core';
 
 // 坐标裁剪
 const buf1 = await imgx('./photo.jpg')

@@ -71,7 +71,7 @@ describe('GET /api/process — single operation', () => {
 
 // Combo tests: every preset advertised in the playground UI must succeed
 // against the bundled sample image. Catches drift between PRESETS strings
-// and the underlying @imgx/core operation API.
+// and the underlying @imgx-kit/core operation API.
 describe('GET /api/process — playground presets (combo)', () => {
   it.each(PRESETS)('preset $i18nKey ($params) returns processed image', async (preset) => {
     const res = await GET(makeReq({ sample: 'default', params: `image/${preset.params}` }));

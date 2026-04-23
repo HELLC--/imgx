@@ -6,15 +6,15 @@ order: 0
 
 # 快速开始
 
-> `@imgx/core` 是兼容阿里云 OSS `x-oss-process` URL 语法的 Node 端图片处理库,基于 sharp 实现。
+> `@imgx-kit/core` 是兼容阿里云 OSS `x-oss-process` URL 语法的 Node 端图片处理库,基于 sharp 实现。
 
 ## 安装
 
 ```bash
-npm install @imgx/core sharp
+npm install @imgx-kit/core sharp
 # 或
-pnpm add @imgx/core sharp
-yarn add @imgx/core sharp
+pnpm add @imgx-kit/core sharp
+yarn add @imgx-kit/core sharp
 ```
 
 > `sharp` 是 peerDependency,需要单独安装。
@@ -24,7 +24,7 @@ yarn add @imgx/core sharp
 ### processImage(URL 字符串)
 
 ```ts
-import { processImage } from '@imgx/core';
+import { processImage } from '@imgx-kit/core';
 
 const buf = await processImage(
   './photo.jpg',
@@ -35,7 +35,7 @@ const buf = await processImage(
 ### imgx 链式 API
 
 ```ts
-import { imgx } from '@imgx/core';
+import { imgx } from '@imgx-kit/core';
 
 const buf = await imgx('./photo.jpg')
   .resize({ w: 300 })

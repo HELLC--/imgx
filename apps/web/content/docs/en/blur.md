@@ -46,7 +46,7 @@ order: 1
 ### processImage (URL string)
 
 ```ts
-import { processImage } from '@imgx/core';
+import { processImage } from '@imgx-kit/core';
 
 const buf = await processImage(
   './photo.jpg',
@@ -57,7 +57,7 @@ const buf = await processImage(
 ### imgx chain API
 
 ```ts
-import { imgx } from '@imgx/core';
+import { imgx } from '@imgx-kit/core';
 
 const buf = await imgx('./photo.jpg')
   .blur({ r: 10, s: 10 })

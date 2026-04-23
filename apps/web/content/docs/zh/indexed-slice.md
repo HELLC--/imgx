@@ -39,7 +39,7 @@ order: 3
 ### processImage(URL 字符串)
 
 ```ts
-import { processImage } from '@imgx/core';
+import { processImage } from '@imgx-kit/core';
 
 const buf = await processImage(
   './sprite.jpg',
@@ -50,7 +50,7 @@ const buf = await processImage(
 ### imgx 链式 API
 
 ```ts
-import { imgx } from '@imgx/core';
+import { imgx } from '@imgx-kit/core';
 
 const buf = await imgx('./sprite.jpg')
   .indexcrop({ x: 100, i: 0 })

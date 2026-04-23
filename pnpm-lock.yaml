@@ -17,7 +17,7 @@ importers:
 
   apps/web:
     dependencies:
-      '@imgx/core':
+      '@imgx-kit/core':
         specifier: workspace:*
         version: link:../../packages/core
       github-slugger:
