@@ -9,9 +9,9 @@ Resize, crop, watermark, convert — all expressed as a readable path, powered b
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 [![Node](https://img.shields.io/badge/node-%3E=18-43853d)](https://nodejs.org)
 [![pnpm](https://img.shields.io/badge/pnpm-monorepo-f69220)](https://pnpm.io)
-[![Web Demo](https://img.shields.io/badge/demo-vercel-000)](https://imgx-web.vercel.app)
+[![Web Demo](https://img.shields.io/badge/demo-vercel-000)](https://imgx-gbom.vercel.app)
 
-[Online Demo](https://imgx-web.vercel.app) · [Playground](https://imgx-web.vercel.app/en/playground) · [Docs](https://imgx-web.vercel.app/en/docs) · [中文说明](#中文简介)
+[Online Demo](https://imgx-gbom.vercel.app) · [Playground](https://imgx-gbom.vercel.app/en/playground) · [Docs](https://imgx-gbom.vercel.app/en/docs) · [中文说明](#中文简介)
 
 </div>
 
@@ -72,7 +72,7 @@ image/{op1},{param}_{value}[/{op2},{param}_{value}...]
 
 Recommended order: `resize → format → watermark → quality`.
 
-See the [full operation reference](https://imgx-web.vercel.app/en/docs) for every parameter.
+See the [full operation reference](https://imgx-gbom.vercel.app/en/docs) for every parameter.
 
 ## 🧱 Repository Layout
 
@@ -134,7 +134,7 @@ Issues and pull requests are very welcome. If you plan to work on a sizeable cha
 - [`packages/core/`](./packages/core) — `@imgx/core` 库本体
 - [`apps/web/`](./apps/web) — 官网、文档与在线 Playground（Next.js）
 
-🔗 在线体验：<https://imgx-web.vercel.app> ｜ Playground：<https://imgx-web.vercel.app/zh/playground>
+🔗 在线体验：<https://imgx-gbom.vercel.app> ｜ Playground：<https://imgx-gbom.vercel.app/zh/playground>
 
 快速开始：
 
