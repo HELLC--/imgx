@@ -1,0 +1,8 @@
+{
+  "INVALID_PARAMS": "参数解析失败",
+  "INVALID_SAMPLE": "示例图不存在",
+  "OPERATION_LIMIT": "操作链过长,最多 8 步",
+  "OPERATION_FAILED": "图片处理失败",
+  "RATE_LIMITED": "请求过于频繁,请稍后再试",
+  "INTERNAL_ERROR": "服务器内部错误"
+}

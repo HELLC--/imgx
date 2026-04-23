@@ -1,0 +1,17 @@
+{
+  "name": "imgx",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "web:dev": "turbo run dev --filter=web",
+    "web:build": "turbo run build --filter=web"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.7.0"
+  },
+  "packageManager": "pnpm@10.22.0"
+}

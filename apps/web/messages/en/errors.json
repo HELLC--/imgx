@@ -1,0 +1,8 @@
+{
+  "INVALID_PARAMS": "Failed to parse parameters",
+  "INVALID_SAMPLE": "Sample image not found",
+  "OPERATION_LIMIT": "Operation chain too long (8 max).",
+  "OPERATION_FAILED": "Image processing failed",
+  "RATE_LIMITED": "Too many requests. Please try again later.",
+  "INTERNAL_ERROR": "Internal server error"
+}

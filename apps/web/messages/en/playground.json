@@ -1,0 +1,29 @@
+{
+  "title": "Playground",
+  "currentSample": "Current sample",
+  "paramsLabel": "Parameter chain",
+  "paramsPlaceholder": "e.g. resize,w_300/format,webp",
+  "run": "Run",
+  "running": "Processing…",
+  "beforeLabel": "Original",
+  "afterLabel": "Output",
+  "presetsTitle": "Presets",
+  "metaInput": "Input",
+  "metaOutput": "Output",
+  "metaDuration": "Duration",
+  "errorTitle": "Processing failed",
+  "errorDetailToggle": "Show details",
+  "presets": {
+    "resizeWidth": "Resize to width 300",
+    "circleAvatar": "Circle avatar",
+    "roundedCorners": "Rounded corners",
+    "webpCompress": "Convert to WebP",
+    "rotateFlip": "Rotate 90° and flip",
+    "blur": "Gaussian blur",
+    "squareCrop": "Center-cropped square",
+    "watermarkText": "Text watermark"
+  },
+  "samples": {
+    "default": "Default sample image"
+  }
+}

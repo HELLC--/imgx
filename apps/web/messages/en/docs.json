@@ -1,0 +1,15 @@
+{
+  "title": "Docs",
+  "indexDescription": "Complete API reference",
+  "navTitle": "Contents",
+  "onThisPage": "On this page",
+  "translatingPlaceholder": "English version is being translated. See the Chinese version meanwhile:",
+  "categories": {
+    "overview": "Overview",
+    "size": "Size",
+    "transform": "Transform",
+    "effect": "Effects",
+    "security": "Security",
+    "misc": "Misc"
+  }
+}

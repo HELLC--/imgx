@@ -1,0 +1,32 @@
+{
+  "site": { "title": "imgx", "tagline": "URL-driven image processing for Node.js." },
+  "nav": { "docs": "Docs", "playground": "Playground", "github": "GitHub" },
+  "footer": {
+    "tagline": "URL-driven image processing · MIT License",
+    "copyright": "© {year, number, ::integer/group-off} imgx · crafted with care"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "zh": "中文",
+    "en": "English",
+    "short": { "zh": "中", "en": "EN" }
+  },
+  "a11y": {
+    "mainNav": "Main navigation",
+    "languageSwitcher": "Switch language",
+    "packageManager": "Select package manager",
+    "copyInstall": "Copy install command",
+    "comparisonSlider": "Comparison slider"
+  },
+  "copy": { "idle": "Copy", "done": "Copied" },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist. It may have moved, or the link is wrong.",
+    "ctaHome": "Back to home"
+  },
+  "errorBoundary": {
+    "title": "Something went wrong",
+    "description": "An unexpected error happened while rendering this page. Try again, or head back home.",
+    "retry": "Try again"
+  }
+}

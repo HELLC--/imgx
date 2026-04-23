@@ -1,0 +1,22 @@
+{
+  "site": {
+    "titleTemplate": "%s · imgx",
+    "defaultTitle": "imgx — URL 驱动的 Node.js 图片处理库",
+    "description": "用一段可读的 URL 完成缩放、裁剪、加水印、格式转换。基于 sharp,支持 Node.js 18+。"
+  },
+  "home": {
+    "title": "imgx — URL 驱动的 Node.js 图片处理库",
+    "description": "用一段可读的 URL 完成缩放、裁剪、加水印、格式转换。基于 sharp,支持 Node.js 18+。"
+  },
+  "playground": {
+    "title": "Playground",
+    "description": "在线试玩 imgx 参数链:即改即看,零部署。"
+  },
+  "docs": {
+    "title": "文档",
+    "description": "imgx 完整 API 参考与使用示例。"
+  },
+  "docsArticle": {
+    "titleTemplate": "{title} · imgx 文档"
+  }
+}

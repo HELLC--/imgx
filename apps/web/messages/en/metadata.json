@@ -1,0 +1,22 @@
+{
+  "site": {
+    "titleTemplate": "%s · imgx",
+    "defaultTitle": "imgx — URL-driven image processing for Node.js",
+    "description": "Resize, crop, watermark, and convert images with a readable URL. Powered by sharp, ships for Node.js 18+."
+  },
+  "home": {
+    "title": "imgx — URL-driven image processing for Node.js",
+    "description": "Resize, crop, watermark, and convert images with a readable URL. Powered by sharp, ships for Node.js 18+."
+  },
+  "playground": {
+    "title": "Playground",
+    "description": "Try imgx parameter chains live in the browser — no install required."
+  },
+  "docs": {
+    "title": "Docs",
+    "description": "Full imgx API reference and usage recipes."
+  },
+  "docsArticle": {
+    "titleTemplate": "{title} · imgx docs"
+  }
+}

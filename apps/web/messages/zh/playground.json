@@ -1,0 +1,29 @@
+{
+  "title": "Playground",
+  "currentSample": "当前示例",
+  "paramsLabel": "参数链",
+  "paramsPlaceholder": "例:resize,w_300/format,webp",
+  "run": "运行",
+  "running": "处理中…",
+  "beforeLabel": "原图",
+  "afterLabel": "输出",
+  "presetsTitle": "预设示例",
+  "metaInput": "原图",
+  "metaOutput": "输出",
+  "metaDuration": "耗时",
+  "errorTitle": "处理失败",
+  "errorDetailToggle": "查看详情",
+  "presets": {
+    "resizeWidth": "等比缩放至宽 300",
+    "circleAvatar": "圆形头像",
+    "roundedCorners": "圆角矩形",
+    "webpCompress": "转为 WebP",
+    "rotateFlip": "旋转 90° 并翻转",
+    "blur": "高斯模糊",
+    "squareCrop": "居中裁剪正方形",
+    "watermarkText": "文字水印"
+  },
+  "samples": {
+    "default": "默认示例图"
+  }
+}

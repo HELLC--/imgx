@@ -1,0 +1,15 @@
+{
+  "title": "文档",
+  "indexDescription": "完整 API 参考",
+  "navTitle": "目录",
+  "onThisPage": "本页内容",
+  "translatingPlaceholder": "本页英文版尚在翻译,先看中文版：",
+  "categories": {
+    "overview": "概览",
+    "size": "尺寸调整",
+    "transform": "变换",
+    "effect": "效果",
+    "security": "安全",
+    "misc": "其他"
+  }
+}
